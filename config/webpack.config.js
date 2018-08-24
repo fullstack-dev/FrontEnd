@@ -31,5 +31,6 @@ function environmentPath(env) {
 }
 
 module.exports = function () {
+  console.log("==>", useDefaultConfig);
   return useDefaultConfig;
 };
